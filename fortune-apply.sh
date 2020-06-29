@@ -3,7 +3,7 @@
 if [ -d "/usr/share/games/fortune" ] 
 then
     FORTUNE_FOLDER="/usr/share/games/fortune" 
-elif [ -d "/usr/share/fortune" ]
+elif [ -d "/usr/games/fortune" ]
 then
     FORTUNE_FOLDER="/usr/share/fortune" 
 else
