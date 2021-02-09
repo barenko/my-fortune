@@ -6,6 +6,9 @@ then
 elif [ -d "/usr/games/fortune" ]
 then
     FORTUNE_FOLDER="/usr/share/fortune" 
+elif [ -d "/usr/share/games/fortunes" ]
+then
+    FORTUNE_FOLDER="/usr/share/games/fortunes" 
 else
     echo "No fortune folder found. Is fortune installed?"
     exit 1
