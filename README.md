@@ -2,7 +2,17 @@
 
 This project install a customized fortune file.
 
-### Intructions
+
+### Instalation TL;DR
+
+Just run it:
+
+```bash
+    curl -fsSL https://raw.githubusercontent.com/barenko/my-fortune/master/fortune-install.sh | sh
+```
+
+### Instalation, the hard way
+
 Edit the `my-fortune` text file with your quotes. Note that the lines with a single '%' char are the quote separators.
 
 After edition completes, run the `fortune-apply.sh` script:
@@ -16,3 +26,4 @@ This will install the `my-fortune` file into the fortune folder. Now the fortune
 ```bash
     $ fortune my-fortune
 ```
+
